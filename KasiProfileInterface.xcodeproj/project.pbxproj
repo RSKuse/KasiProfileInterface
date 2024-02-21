@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3F4102B2B7BBFB800C789F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F4102A2B7BBFB800C789F5 /* AppDelegate.swift */; };
+		F3F4102F2B7BBFB800C789F5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F4102E2B7BBFB800C789F5 /* HomeViewController.swift */; };
+		F3F410342B7BBFC700C789F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F410332B7BBFC700C789F5 /* Assets.xcassets */; };
+		F3F410372B7BBFC700C789F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F410352B7BBFC700C789F5 /* LaunchScreen.storyboard */; };
+		F3F410552B83B20E00C789F5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F410502B83B20E00C789F5 /* SearchViewController.swift */; };
+		F3F410562B83B20E00C789F5 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F410512B83B20E00C789F5 /* AddViewController.swift */; };
+		F3F410572B83B20E00C789F5 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F410522B83B20E00C789F5 /* NotificationsViewController.swift */; };
+		F3F410582B83B20E00C789F5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F410532B83B20E00C789F5 /* ProfileViewController.swift */; };
+		F3F410592B83B20E00C789F5 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F410542B83B20E00C789F5 /* TabBarController.swift */; };
+		F3F4105B2B83D19400C789F5 /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F4105A2B83D19400C789F5 /* PrivacyViewController.swift */; };
+		F3F4105D2B83EE2B00C789F5 /* PrivacyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F4105C2B83EE2B00C789F5 /* PrivacyTableViewCell.swift */; };
+		F3F4105F2B83F86500C789F5 /* PrivacyViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F4105E2B83F86500C789F5 /* PrivacyViewController+TableView.swift */; };
+		F3F410612B84AF3E00C789F5 /* OtherPrivacySettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F410602B84AF3E00C789F5 /* OtherPrivacySettingTableViewCell.swift */; };
+		F3F410652B86053500C789F5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F410642B86053500C789F5 /* SettingsViewController.swift */; };
+		F3F410672B860A5200C789F5 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F410662B860A5200C789F5 /* SettingTableViewCell.swift */; };
+		F3F410692B860A8C00C789F5 /* SettingsViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F410682B860A8C00C789F5 /* SettingsViewController+TableView.swift */; };
+		F3F4106B2B86116B00C789F5 /* SwitchProfileAndLogOutSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F4106A2B86116B00C789F5 /* SwitchProfileAndLogOutSettingTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3F410272B7BBFB800C789F5 /* KasiProfileInterface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KasiProfileInterface.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F4102A2B7BBFB800C789F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3F4102E2B7BBFB800C789F5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F3F410332B7BBFC700C789F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3F410362B7BBFC700C789F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3F410382B7BBFC700C789F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F410502B83B20E00C789F5 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F3F410512B83B20E00C789F5 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		F3F410522B83B20E00C789F5 /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		F3F410532B83B20E00C789F5 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F3F410542B83B20E00C789F5 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		F3F4105A2B83D19400C789F5 /* PrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
+		F3F4105C2B83EE2B00C789F5 /* PrivacyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyTableViewCell.swift; sourceTree = "<group>"; };
+		F3F4105E2B83F86500C789F5 /* PrivacyViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PrivacyViewController+TableView.swift"; sourceTree = "<group>"; };
+		F3F410602B84AF3E00C789F5 /* OtherPrivacySettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherPrivacySettingTableViewCell.swift; sourceTree = "<group>"; };
+		F3F410642B86053500C789F5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F3F410662B860A5200C789F5 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		F3F410682B860A8C00C789F5 /* SettingsViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsViewController+TableView.swift"; sourceTree = "<group>"; };
+		F3F4106A2B86116B00C789F5 /* SwitchProfileAndLogOutSettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchProfileAndLogOutSettingTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3F410242B7BBFB800C789F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3F4101E2B7BBFB800C789F5 = {
+			isa = PBXGroup;
+			children = (
+				F3F4102A2B7BBFB800C789F5 /* AppDelegate.swift */,
+				F3F410622B86016D00C789F5 /* Privacy */,
+				F3F410292B7BBFB800C789F5 /* KasiProfileInterface */,
+				F3F410282B7BBFB800C789F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3F410282B7BBFB800C789F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3F410272B7BBFB800C789F5 /* KasiProfileInterface.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3F410292B7BBFB800C789F5 /* KasiProfileInterface */ = {
+			isa = PBXGroup;
+			children = (
+				F3F4102E2B7BBFB800C789F5 /* HomeViewController.swift */,
+				F3F4104F2B83B20E00C789F5 /* TabBarControllers */,
+				F3F410332B7BBFC700C789F5 /* Assets.xcassets */,
+				F3F410352B7BBFC700C789F5 /* LaunchScreen.storyboard */,
+				F3F410382B7BBFC700C789F5 /* Info.plist */,
+			);
+			path = KasiProfileInterface;
+			sourceTree = "<group>";
+		};
+		F3F4104F2B83B20E00C789F5 /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3F410502B83B20E00C789F5 /* SearchViewController.swift */,
+				F3F410512B83B20E00C789F5 /* AddViewController.swift */,
+				F3F410522B83B20E00C789F5 /* NotificationsViewController.swift */,
+				F3F410532B83B20E00C789F5 /* ProfileViewController.swift */,
+				F3F410542B83B20E00C789F5 /* TabBarController.swift */,
+			);
+			path = TabBarControllers;
+			sourceTree = "<group>";
+		};
+		F3F410622B86016D00C789F5 /* Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				F3F410632B8604E100C789F5 /* Settings */,
+				F3F4105A2B83D19400C789F5 /* PrivacyViewController.swift */,
+				F3F4105E2B83F86500C789F5 /* PrivacyViewController+TableView.swift */,
+				F3F4105C2B83EE2B00C789F5 /* PrivacyTableViewCell.swift */,
+				F3F410602B84AF3E00C789F5 /* OtherPrivacySettingTableViewCell.swift */,
+			);
+			path = Privacy;
+			sourceTree = "<group>";
+		};
+		F3F410632B8604E100C789F5 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F3F410642B86053500C789F5 /* SettingsViewController.swift */,
+				F3F410682B860A8C00C789F5 /* SettingsViewController+TableView.swift */,
+				F3F410662B860A5200C789F5 /* SettingTableViewCell.swift */,
+				F3F4106A2B86116B00C789F5 /* SwitchProfileAndLogOutSettingTableViewCell.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3F410262B7BBFB800C789F5 /* KasiProfileInterface */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F4103B2B7BBFC700C789F5 /* Build configuration list for PBXNativeTarget "KasiProfileInterface" */;
+			buildPhases = (
+				F3F410232B7BBFB800C789F5 /* Sources */,
+				F3F410242B7BBFB800C789F5 /* Frameworks */,
+				F3F410252B7BBFB800C789F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KasiProfileInterface;
+			productName = KasiProfileInterface;
+			productReference = F3F410272B7BBFB800C789F5 /* KasiProfileInterface.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3F4101F2B7BBFB800C789F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F3F410262B7BBFB800C789F5 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F3F410222B7BBFB800C789F5 /* Build configuration list for PBXProject "KasiProfileInterface" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3F4101E2B7BBFB800C789F5;
+			productRefGroup = F3F410282B7BBFB800C789F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3F410262B7BBFB800C789F5 /* KasiProfileInterface */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3F410252B7BBFB800C789F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F410372B7BBFC700C789F5 /* LaunchScreen.storyboard in Resources */,
+				F3F410342B7BBFC700C789F5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3F410232B7BBFB800C789F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F4105D2B83EE2B00C789F5 /* PrivacyTableViewCell.swift in Sources */,
+				F3F410582B83B20E00C789F5 /* ProfileViewController.swift in Sources */,
+				F3F410552B83B20E00C789F5 /* SearchViewController.swift in Sources */,
+				F3F410572B83B20E00C789F5 /* NotificationsViewController.swift in Sources */,
+				F3F410612B84AF3E00C789F5 /* OtherPrivacySettingTableViewCell.swift in Sources */,
+				F3F4105B2B83D19400C789F5 /* PrivacyViewController.swift in Sources */,
+				F3F4105F2B83F86500C789F5 /* PrivacyViewController+TableView.swift in Sources */,
+				F3F4102F2B7BBFB800C789F5 /* HomeViewController.swift in Sources */,
+				F3F410672B860A5200C789F5 /* SettingTableViewCell.swift in Sources */,
+				F3F410692B860A8C00C789F5 /* SettingsViewController+TableView.swift in Sources */,
+				F3F410592B83B20E00C789F5 /* TabBarController.swift in Sources */,
+				F3F410562B83B20E00C789F5 /* AddViewController.swift in Sources */,
+				F3F4106B2B86116B00C789F5 /* SwitchProfileAndLogOutSettingTableViewCell.swift in Sources */,
+				F3F4102B2B7BBFB800C789F5 /* AppDelegate.swift in Sources */,
+				F3F410652B86053500C789F5 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3F410352B7BBFC700C789F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3F410362B7BBFC700C789F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3F410392B7BBFC700C789F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3F4103A2B7BBFC700C789F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3F4103C2B7BBFC700C789F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8C3BDQ5BW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KasiProfileInterface/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Futurelane.KasiProfileInterface;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3F4103D2B7BBFC700C789F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8C3BDQ5BW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KasiProfileInterface/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Futurelane.KasiProfileInterface;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3F410222B7BBFB800C789F5 /* Build configuration list for PBXProject "KasiProfileInterface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F410392B7BBFC700C789F5 /* Debug */,
+				F3F4103A2B7BBFC700C789F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F4103B2B7BBFC700C789F5 /* Build configuration list for PBXNativeTarget "KasiProfileInterface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F4103C2B7BBFC700C789F5 /* Debug */,
+				F3F4103D2B7BBFC700C789F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3F4101F2B7BBFB800C789F5 /* Project object */;
+}
